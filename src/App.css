@@ -1,3 +1,41 @@
+nav {
+  display: flex;
+  align-items: center;
+  background: darkblue;
+  color: white;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav > div {
+  margin-left: 0px;
+  margin-right:80%;
+}
+
+nav2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+.push {
+  margin-left: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
 .App {
   text-align: center;
 }
